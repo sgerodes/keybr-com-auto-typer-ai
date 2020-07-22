@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.keybr.com/"],
-      "js": ["content.js"]
+      "js": ["jquery.js", "content.js"]
     }
   ]
 }
